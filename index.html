@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exporters</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mian-container">
+       <nav id="botone" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <span class="navbar-brand">
+                <a href="#">
+                    <img src="images/logo.png" alt="img">
+                </a>
+            </span>
+            <button aria-controls="navbarScroll" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarScroll">
+                <div class="ml-auto my-2 navbar-nav navbar-nav-scroll">
+                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#">Exporters</a>
+                    <a class="nav-link" href="#">Categories</a>
+                    <a class="nav-link" href="#">Add Buy Offer</a>
+                    <a class="nav-link" href="#">
+                        <button type="button" class="btn-login w-full btn btn-primary">Login</button>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <button type="button" class="btn-signup w-full btn btn-primary">Sign up</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <div class="bg container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="py-5 text-center">
+                            <h1 class="text-4xl font-bold py-2">All the exporters under one roof</h1>
+                            <h2 class="text-2xl">Find and connect with the economical and</h2>
+                            <span class="text-2xl">the high quality product exporters</span>
+                            <div class="py-3 wrapper">
+                                <div class="searchBar drop">
+                                    <div class="nav-item dropdown">
+                                        <a id="navbarScrollingDropdown1" aria-expanded="false" role="button" class="dropdown-toggle nav-link" tabindex="0" href="#">Products</a>
+                                       </div> 
+                                        <input id="searchQueryInput" type="text" name="searchQueryInput" class="form-control" placeholder="Search">
+                                        <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit"><svg viewBox="0 0 24 24" style="height: 24px;">
+                                            <path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"></path></svg>
+                                        </button>
+                                </div>
+                            </div>
+                            <div class="section--tags flex-section">
+                                <div class="flex-section--content">
+                                    <ul class="flex-section--carousel button-list">
+                                        <li>
+                                            <span class="track button button--xs button--light semibold" data-track-arguments="event,portada,click_palabra_buscador">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path>
+                                                </svg>
+                                                <span>Fashion</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="track button button--xs button--light semibold" data-track-arguments="event,portada,click_palabra_buscador">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path>
+                                                </svg>
+                                                <span>Bags</span>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="track button button--xs button--light semibold" data-track-arguments="event,portada,click_palabra_buscador">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path>
+                                                </svg>
+                                                <span>Jewellery</span>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="py-3 text-center">
+                        <h2 class="text-2xl text-white" style="font-weight: 500;">Trending Categories</h2>
+                        <div class="py-4 row row-cols-lg-6 row-cols-md-4 row-cols-2">
+                            <div class="webkit col">
+                                <div class="circle">
+                                <img src="images/cat1.77d9bbe6c6ad04f07fcf.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Agro &amp; Agriculture</h2>
+                        </div>
+                        <div class="webkit col">
+                            <div class="circle">
+                                <img src="images/cat2.c2ef3b750e3f080cafcf.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Apparel &amp; Fashion</h2>
+                        </div>
+                        <div class="webkit col">
+                            <div class="circle">
+                                <img src="images/cat3.a141ab9db98df6366519.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Fashion Accessories</h2>
+                        </div>
+                        <div class="webkit col">
+                            <div class="circle">
+                                <img src="images/cat4.8b6181ff297676f1c5c8.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Garment Accessories</h2>
+                        </div>
+                        <div class="webkit col">
+                            <div class="circle">
+                                <img src="images/cat5.82ce16c9c36e37983e09.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Fine Jewellery</h2>
+                        </div>
+                        <div class="webkit col">
+                            <div class="circle">
+                                <img src="images/cat6.901082f39e4b1480da57.png" class="">
+                            </div>
+                            <h2 class="text-sm py-2 text-white">Handbags</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-acc container-fluid">
+            <div class="container">
+                <div class="py-4 align-items-center webkit flex ddmm">
+                    <div>
+                        <h2 class="text-2xl">Create an account to post free products</h2>
+                    </div>
+                    <div>
+                        <button type="button" class="btnMain btn btn-primary">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="py-3 webkit row">
+                    <div class="py-5">
+                        <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Explore Trending Products</h2>
+                        <p class="text-lg" style="color: rgb(65, 64, 66);">Check what’s popular make your project look trendy and professional.</p>
+                    </div>
+                </div>
+                <div class="py-3 row row-cols-lg-8 row-cols-md-4 row-cols-2">
+                    <div class="col-lg-3" style="background: rgb(30, 117, 187);">
+                        <div class="px-2 webkit MainBox">
+                            <img src="images/trendImg.7fb242275e65927b8b32.png" class="" style="object-fit: cover; width: 80%;">7
+                        </div>
+                    </div>
+                    <div class="bg-white col-lg-3" style="border-width: 1px; border-style: solid; border-top-color: black; border-left-color: black; border-right-color: black; border-bottom-color: initial;">
+                        <div class="row">
+                            <div class="py-3 px-2 webkit mainB1 col">
+                                <img src="images/trendImg1.9e695bec2f85fc6e1536.png" class="" style="object-fit: contain; width: 20%;">
+                                <h2 class="text-sm pt-2">Car Tyre</h2>
+                            </div>
+                            <hr class="hr">
+                                <div class="py-3 px-2 webkit mainB1 col">
+                                    <img src="images/trendImg2.01c250451d181c05e682.png" class="" style="object-fit: cover; width: 40%;">
+                                    <h2 class="text-sm">Shipping Container</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white brde col-lg-3">
+                            <div class="row">
+                                <div class="py-3 px-2 webkit mainB1 col">
+                                    <img src="images/trendImg3.cf6833bf916f7d8670c7.png" class="" style="object-fit: cover; width: 40%;">
+                                    <h2 class="text-sm pt-2">Farm Tractor </h2>
+                                </div>
+                                <hr class="hr">
+                                <div class="py-3 px-2 webkit mainB1 col">
+                                    <img src="images/trendImg4.e391cf129975e489a9d8.png" class="" style="object-fit: cover; width: 40%;">
+                                    <h2 class="text-sm">Backpack Bag</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white col-lg-3" style="border-width: 1px; border-style: solid; border-top-color: black; border-left-color: black; border-right-color: black; border-bottom-color: initial;">
+                            <div class="row">
+                                <div class="py-3 px-2 webkit mainB1 col">
+                                    <img src="images/trendImg5.549b83de68c5ec9a0870.png" class="" style="object-fit: cover; width: 20%;">
+                                    <h2 class="text-sm pt-2">Table Couch Bed Chair</h2>
+                                </div>
+                                <hr class="hr">
+                                <div class="py-3 px-2 webkit mainB1 col">
+                                    <img src="images/trendImg6.9df1e505bb340a898644.png" class="" style="object-fit: cover; width: 40%;">
+                                    <h2 class="text-sm">LED Lights</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="py-3 webkit row">
+                    <div class="py-5">
+                    <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Top Exporters</h2>
+                    <p class="text-lg" style="color: rgb(65, 64, 66);">Check what’s popular make your project look trendy and professional.</p>
+            </div>
+        </div>
+    </div>    
+    <div class="bg-white py-4 container-fluid">
+        <div class="container">
+            <div class="align-items-center webkit justify-center row row-cols-lg-6 row-cols-md-4 row-cols-2">
+                <div class="col">
+                    <div class="p-3">
+                        <img src="images/TopExporter1.738954e6da8bd9561ded.png" class="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3">
+                        <img src="images/TopExporter2.5914f641e54af46e66ad.png" class="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3">
+                        <img src="images/TopExporter3.ba418ddaea42b0d11579.png" class="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3">
+                        <img src="images/TopExporter4.3b46528c902212597ee5.png" class="">
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3">
+                            <img src="images/TopExporter5.e22d1cf94f4fef111602.png" class="">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+    <div class="container">
+        <div class="py-3 webkit row">
+            <div class="py-5">
+                <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Unlock Your Business Potential</h2>
+                <p class="text-lg" style="color: rgb(65, 64, 66);">Check what’s popular make your project look trendy and professional.</p>
+            </div>
+        </div>
+    </div>
+    <div class=" py-4 container-fluid" style="background-color: rgba(0, 174, 239, 0.3);">
+        <div class="container">
+            <div class="align-items-center webkit justify-center row row-cols-lg-6 row-cols-md-4 row-cols-2">
+                <div class="col">
+                    <div>
+                        <img src="images/Potential1.d5bac8c5b71ee1904e0a.png" class="">
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <img src="images/Potential2.2c2086576da646fcb4d9.png" class="">
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <img src="images/Potential3.032d3324b85a11c6e040.png" class="">
+                </div>
+            </div>
+            <div class="col"><div>
+                <img src="images/Potential4.c088d9675f60862636ff.png" class="">
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <img src="images/Potential5.2935a88377ef7b775566.png" class="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="py-3 webkit row">
+        <div class="py-5">
+            <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Our Channel Partners</h2>
+            <p class="text-lg" style="color: rgb(65, 64, 66);">Check what’s popular make your project look trendy and professional.</p>
+        </div>
+    </div>
+</div>
+<div class=" py-4 container-fluid" style="background-color: white;">
+    <div class="container">
+        <div class="align-items-center webkit ghgh row row-cols-lg-6 row-cols-md-4 row-cols-2">
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner1.2e9a761f208ee87b863c.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download (2).png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download (1).png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner4.fb000e11f6970c584ca6.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner5.4b0f54341430a6d9ca01.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download.png" class>
+                </div>
+            </div>
+        </div>
+        <div class="align-items-center webkit ghgh row row-cols-lg-6 row-cols-md-4 row-cols-2">
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner1.2e9a761f208ee87b863c.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download (2).png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download (1).png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner4.fb000e11f6970c584ca6.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/Partner5.4b0f54341430a6d9ca01.png" class>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-4">
+                    <img src="images/download.png" class>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="py-3 webkit row">
+        <div class="pt-5">
+            <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Latest Buy &amp; Sell Offers</h2>
+            <p class="text-lg" style="color: rgb(65, 64, 66);">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+    <div class="py-5 row">
+        <div class="col-lg-6">
+            <div class="box-latest p-3">
+                <h2 class="text-xl" style="font-weight: 500;">Latest Buy Offers<span class="float-right" style="color: rgb(147, 149, 152); font-size: 14px;">View all</span>
+                </h2>
+                <hr style="border-bottom: 1px solid rgb(147, 149, 152);">
+                <ul class="dashed">
+                    <li>
+                        <div class="py-2 align-items-end row">
+                            <div class="col-lg-9">
+                                <div class="flex gap-1 py-2">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAABFUlEQVRoge3aMUoDQRhA4YlJQDcilgsR0pjGIskJxCYewNq7eAgvkM42VUrRzoAQSJkgCBYGjOsWCqtYSCD1c7O4jbwPppv5Z3j1VDr9y5MQwmr9ue5RvH9+1uttMjfK3rebyVOcZ+/ybpIubsdpGW9/rUbD2jrMRRkX1OvVcHp8WOBkvp4HL4+tr9G8wPzfXTfaYauUyf+EcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxwOp7/yCEcFPG8Cz73r0aTjf63x99pDvx80Mzz9632TJZ7HWTwg8En5Xa/Q/hXCkruMzpQwAAAABJRU5ErkJggg==" class="" style="width: 5%; object-fit: contain;">
+                                    <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Bed Sheet Peice</h2>
+                                </div>
+                                <h2 style="font-size: 14px;">
+                                    <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 1000 Boxes</h2>
+                                </div>
+                                <div class="col-lg-3">
+                                    <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 
+                                            4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+                                        </svg>Inquiry</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="py-2 align-items-end row">
+                                    <div class="col-lg-9">
+                                        <div class="flex gap-1 py-2">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAsCAYAAAA3g6WGAAAACXBIWXMAACxKAAAsSgF3enRNAAAAzUlEQVRoge3TsQnCYBRF4Rf5JRItMoSVVQp7SxdwMEdwDRvJCFZWDmApqKCkiL3isUwg55vgvgMvuyyXVURsQ592KSLKiFiZ5ks96tmgXjEOMA4wDjAOMA4wDjAOMA5I48VrluVtbwd2pW2yMk3Wj3mxuQ2zAHgeisq3AsYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAem5n55fddHbgV1pm+yYmlN+H+b5f119K2AcYBxgHGAcYBxgHGAcYBxgnF8i4g06TxfyzYp1vwAAAABJRU5ErkJggg==" class="" style="width: 5%; object-fit: contain;">
+                                            <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Printed Cotton Nighty Fabric</h2>
+                                        </div>
+                                        <h2 style="font-size: 14px;">
+                                            <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 100 Pieces</h2>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+                                                </svg>Inquiry</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="py-2 align-items-end row">
+                                            <div class="col-lg-9">
+                                                <div class="flex gap-1 py-2">
+                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAAA80lEQVRoge3bPWpCQRRA4fvEaIoI2lkE0WCRyi1YxEIIiEtwg+Ii7MQt2AZik0KIP5EXEVMfFBwMcj6YbrgznHome5sMRxFxXFfXqDw/Dlr9+iVzq/mu1Pn5qp2zd72c77+Xs32Kuy+y8rgYEc2I6KY4oFauxvDlPcXok3wb8TlNMvoje2gXkky+E8YBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHHvw/Nvyf+/8Lr7+apl6/at77LJgrzAw3vHlaZJKwqAAAAAElFTkSuQmCC" class="" style="width: 5%; object-fit: contain;">
+                                                    <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Cotton Yarn</h2>
+                                                </div>
+                                                <h2 style="font-size: 14px;"><span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 20 Tons</h2>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+                                                    </svg>Inquiry</button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="py-2 align-items-end row">
+                                                <div class="col-lg-9">
+                                                    <div class="flex gap-1 py-2">
+                                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAsCAYAAAA3g6WGAAAACXBIWXMAACxKAAAsSgF3enRNAAAAy0lEQVRoge3ZsQnCQBhH8U89RAdIf0OIrU0WyAaO5gZZIIV1lkhKIQMoQkAsVXytB74fXP/nwVfd4rLbHSPi+fTqlCIiR8TBMB/Oy8IGFcU4wDjAOMA4wDjAOMA4wDjAOMA4wDggbZsmr6qq2IG/Mk9TTuv9Pm/q+j8LgFvXZc8KGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHpHvfj/Mw+Ff+Zp6mMV3bdixqVTlGzwoYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGOebiHgA5X4Z/pHkH5oAAAAASUVORK5CYII=" class="" style="width: 5%; object-fit: contain;">
+                                                        <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Hackled Flax</h2>
+                                                    </div>
+                                                    <h2 style="font-size: 14px;">
+                                                        <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 2 MT</h2>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z">
+                                                                </path>
+                                                            </svg>Inquiry</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="py-2 align-items-end row">
+                                                        <div class="col-lg-9">
+                                                            <div class="flex gap-1 py-2">
+                                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAADJ0lEQVRoge2aPU/bQBjHn4ZAKBBBW7USmTrhFYnshRVEViRYOgSFNRKspGHNkBUEAwtIrEFiJR8gfACYupSoL7S0Bsp7q/8pF9nx5eqzXXKg+0keco6du/89r3aefRodfU9EOAxuNuNE9JaI3hlhPFRjmk1IK4w4Eow4Eow4Eow4Eow4Eow4Eow4EuJR3iyRTlNPOu0Zv67V6KpWi/KnHoTQ4nSlUpRcWKDeiQmKDQyIv5TL0f3ZGV3u79OvUonubVtDKbyEcqv+uTl6vbNDfdPT7YVpgPP43pu9PerLZEJO+2EIbDlDKytssa1wC/ldqbhcKZZMMpeDhQ0Vi2zsolJ5euK0E+ayWqXT5WWh22AMouGwV1fpZblMd8fHWsciZbfCzouEsdfW6Hs+7yueQJSTbJa5JSxKV5TEwUJgNa1c7O4ya1ABIsLKIPaTEOd5JuMJvHf1OltkECAQdytYkW4oiSPKMqoW0wpcDAwuLlK3ZWklj29x4FLdIyOuMWSmKDOOyGU7ie9sJdrV28PDSKcO8VFQoqJG2k80qu1v2WxHJApVIUeVhlFlc5K5HKuoqRHPvs7MRPIbQYi0t/ILXBRZiltH1/Cw50q4rN/S4L/NM8zFzh1XgS84nkoJhQGosG8idltVfIsjmmhC0IH7BYEcseTz1BSdb297ruqfne149vItDnb75ujINYZdD2o9HKRytBTNz/U6cynSIHspuZVzERxkl6iA+AjAXyYn6bRQoD+2Hen9VVES53xrq7mrHPRZYdyL4wzAOLjbhS0yw6AkDiYtmuyLcjlQfODXxC2LfuTzzWpZF5SzFawHjyacoN96tbGhZEHOVgT31PHRRaBUjkbz+uDAfSMItL7OgqgsSOMcnuVQmwyoE/gLygciKgSZ0+DSEku5IhBcsXjuKqw3syzqGRtjwVb3p4BEVAxVIf8slVgGw+OG3vFx1zn0Sa2NKqztZH7+0byJCN0+XDVeu8BdEHNgHc7gDOu5bdQyugXcfxFZb4WFPwJXUcK88ZRgxJFgxJFgxJFgxJFgxJFgxJFgxJFgxJGACnkTf2XXdoadgujjX5uDOuBSlsBmAAAAAElFTkSuQmCC" class="" style="width: 5%; object-fit: contain;">
+                                                                <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Fibre &amp; Raw Textiles</h2>
+                                                            </div>
+                                                            <h2 style="font-size: 14px;">
+                                                                <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 20 container</h2>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+                                                                </svg>Inquiry</button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="webkit py-4">
+                                                <button class="rounded-md text-white py-3 px-3 w-6/12" style="background: rgb(30, 117, 187);">Post Buy Offer</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="box-latest p-3">
+          <h2 class="text-xl" style="font-weight: 500;">Latest Sell Offers<span class="float-right" style="color: rgb(147, 149, 152); font-size: 14px;">View all</span>
+          </h2><hr style="border-bottom: 1px solid rgb(147, 149, 152);">
+           <ul class="dashed">
+              <li>
+                     <div class="py-2 align-items-end row">
+                      <div class="col-lg-9">
+                        <div class="flex gap-1 py-2">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAABFUlEQVRoge3aMUoDQRhA4YlJQDcilgsR0pjGIskJxCYewNq7eAgvkM42VUrRzoAQSCD1c7O4jbwPppv5Z3j1VDr+1uttMjfK3rebyVOcZ+/ybpIubsdpGW9/rUbD2jrMRRkX1OvVcHp8WOBkvp4HL4+tr9+EcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxwOp7/yCEcFPG8Cz73r0aTjf63x99pDvx80Mzz9632Q/hXCkruMzpQwAAAABJRU5ErkJggg==" class="" style="width: 5%; object-fit: contain;">
+                <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Bed Sheet Peice</h2>
+                </div>
+                     <h2 style="font-size: 14px;">
+        <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 1000 Boxes</h2>
+            </div>
+            <div class="col-lg-3">
+  <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path></svg>Inquiry</button></div></div></li><li><div class="py-2 align-items-end row"><div class="col-lg-9"><div class="flex gap-1 py-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAsCAYAAAA3g6WGAAAACXBIWXMAACxKAAAsSgF3enRNAAAAzUlEQVRoge3TsQnCYBRF4Rf5JRItMoSVVQp7SxdwMEdwDRvJCFZWDmApqKCkiL3isUwg55vgvgMvuyyXVURsQ592KSLKiFiZ5ks96tmgXjEOMA4wDjAOMA4wDjAOMA5I48VrluVtbwd2pW2yMk3Wj3mxuQ2zAHgeisq3AsYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAem5n55fddHbgV1pm+yYmlN+H+b5f119K2AcYBxgHGAcYBxgHGAcYBxgnF8i4g06TxfyzYp1vwAAAABJRU5ErkJggg==" class="" style="width: 5%; object-fit: contain;">
+                                                                                <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Printed Cotton Nighty Fabric</h2>
+                                                                            </div>
+                                                                            <h2 style="font-size: 14px;">
+                                                                                <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 100 Pieces</h2>
+                                                                            </div>
+                                                                            <div class="col-lg-3">
+                                                                                <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
+                                                                                </svg>Inquiry</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="py-2 align-items-end row">
+                                                                            <div class="col-lg-9">
+                                                                                <div class="flex gap-1 py-2">
+                                                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAAA80lEQVRoge3bPWpCQRRA4fvEaIoI2lkE0WCRyi1YxEIIiEtwg+Ii7MQt2AZik0KIP5EXEVMfFBwMcj6YbrgznHome5sMRxFxXFfXqDw/Dlr9+iVzq/mu1Pn5qp2zd72c77+Xs32Kuy+y8rgYEc2I6KY4oFauxvDlPcXok3wb8TlNMvoje2gXkky+E8YBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHHvw/Nvyf+/8Lr7+apl6/at77LJgrzAw3vHlaZJKwqAAAAAElFTkSuQmCC" class="" style="width: 5%; object-fit: contain;">
+                                                                                    <h2 style="color: rgb(88, 89, 91); font-size: 18px">CottonYarn</h2>
+                                                                                </div>
+                                                                                <h2 style="font-size: 14px;">
+                                                                                    <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 20 Tons</h2>
+                                                                                </div>
+                                                                                <div class="col-lg-3">
+                                                                                    <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path></svg>Inquiry</button></div></div></li><li><div class="py-2 align-items-end row"><div class="col-lg-9"><div class="flex gap-1 py-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAsCAYAAAA3g6WGAAAACXBIWXMAACxKAAAsSgF3enRNAAAAy0lEQVRoge3ZsQnCQBhH8U89RAdIf0OIrU0WyAaO5gZZIIV1lkhKIQMoQkAsVXytB74fXP/nwVfd4rLbHSPi+fTqlCIiR8TBMB/Oy8IGFcU4wDjAOMA4wDjAOMA4wDjAOMA4wDggbZsmr6qq2IG/Mk9TTuv9Pm/q+j8LgFvXZc8KGAcYBxgHGAcYBxgHGAcYBxgHGAcYBxgHpHvfj/Mw+Ff+Zp6mMV3bdixqVTlGzwoYBxgHGAcYBxgHGAcYBxgHGAcYBxgHGOebiHgA5X4Z/pHkH5oAAAAASUVORK5CYII=" class="" style="width: 5%; object-fit: contain;">
+                                                                                        <h2 style="color: rgb(88, 89, 91); font-size:18px">Hackled Flax</h2>
+                                                                                    </div>
+                                                                                    <h2 style="font-size: 14px;">
+                                                                                        <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 2 MT</h2>
+                                                                                    </div>
+                                                                                    <div class="col-lg-3">
+                                                                                        <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z">
+
+                                                                                                </path>
+                                                                                            </svg>Inquiry</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="py-2 align-items-end row">
+                                                                                <div class="col-lg-9">
+                                                                                    <div class="flex gap-1 py-2">
+                                                                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAtCAYAAAD833YjAAAACXBIWXMAACxKAAAsSgF3enRNAAADJ0lEQVRoge2aPU/bQBjHn4ZAKBBBW7USmTrhFYnshRVEViRYOgSFNRKspGHNkBUEAwtIrEFiJR8gfACYupSoL7S0Bsp7q/8pF9nx5eqzXXKg+0keco6du/89r3aefRodfU9EOAxuNuNE9JaI3hlhPFRjmk1IK4w4Eow4Eow4Eow4Eow4Eow4Eow4EuJR3iyRTlNPOu0Zv67V6KpWi/KnHoTQ4nSlUpRcWKDeiQmKDQyIv5TL0f3ZGV3u79OvUonubVtDKbyEcqv+uTl6vbNDfdPT7YVpgPP43pu9PerLZEJO+2EIbDlDKytssa1wC/ldqbhcKZZMMpeDhQ0Vi2zsolJ5euK0E+ayWqXT5WWh22AMouGwV1fpZblMd8fHWsciZbfCzouEsdfW6Hs+7yueQJSTbJa5JSxKV5TEwUJgNa1c7O4ya1ABIsLKIPaTEOd5JuMJvHf1OltkECAQdytYkW4oiSPKMqoW0wpcDAwuLlK3ZWklj29x4FLdIyOuMWSmKDOOyGU7ie9sJdrV28PDSKcO8VFQoqJG2k80qu1v2WxHJApVIUeVhlFlc5K5HKuoqRHPvs7MRPIbQYi0t/ILXBRZiltH1/Cw50q4rN/S4L/NM8zFzh1XgS84nkoJhQGosG8idltVfIsjmmhC0IH7BYEcseTz1BSdb297ruqfne149vItDnb75ujINYZdD2o9HKRytBTNz/U6cynSIHspuZVzERxkl6iA+AjAXyYn6bRQoD+2Hen9VVES53xrq7mrHPRZYdyL4wzAOLjbhS0yw6AkDiYtmuyLcjlQfODXxC2LfuTzzWpZF5SzFawHjyacoN96tbGhZEHOVgT31PHRRaBUjkbz+uDAfSMItL7OgqgsSOMcnuVQmwyoE/gLygciKgSZ0+DSEku5IhBcsXjuKqw3syzqGRtjwVb3p4BEVAxVIf8slVgGw+OG3vFx1zn0Sa2NKqztZH7+0byJCN0+XDVeu8BdEHNgHc7gDOu5bdQyugXcfxFZb4WFPwJXUcK88ZRgxJFgxJFgxJFgxJFgxJFgxJFgxJFgxJGACnkTf2XXdoadgujjX5uDOuBSlsBmAAAAAElFTkSuQmCC" class="" style="width: 5%; object-fit: contain;">
+                                                                                        <h2 style="color: rgb(88, 89, 91); font-size: 18px;">Fibre &amp; Raw Textiles</h2>
+                                                                                    </div>
+                                                                                        <h2 style="font-size: 14px;">
+                                                                                            <span style="color: rgb(147, 149, 152);">Buy Requirement </span>: 20 container</h2>
+                                                                                        </div>
+                                                                                        <div class="col-lg-3">
+                                                                                            <button type="submit" class="btn d-flex align-items-center gap-2 btn-outline-light p-2 bg-green-500 rounded-none btn btn-primary">
+                                                                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z">
+
+                                                                    </path>
+                                                                </svg>Inquiry</button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="webkit py-4">
+                                                <button class="rounded-md text-white py-3 px-3 w-6/12" style="background: rgb(30, 117, 187);">Post Sell Offer</button>
+                                            </div>
+                                        </div>
+                                    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="py-3 webkit row">
+                <div class="py-5">
+                    <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Upcoming Exhibitions</h2>
+                    <p class="text-lg" style="color: rgb(65, 64, 66);">Check what’s popular make your project look trendy and professional.<p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" py-4 container-fluid" style="background-color: white;">
+            <div class="container">
+                <div class="align-items-center webkit ghgh row row-cols-lg-6 row-cols-md-4 row-cols-2">
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/Partner1.2e9a761f208ee87b863c.png" class>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/download (2).png" class>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/download (1).png" class>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/Partner4.fb000e11f6970c584ca6.png" class>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/Partner5.4b0f54341430a6d9ca01.png" class>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-4">
+                            <img src="images/download.png" class>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="py-3 webkit row">
+                <div class="py-5">
+                    <h2 class="text-2xl font-semibold" style="color: rgb(30, 117, 187);">Frequently Asked Questions</h2>
+                    <p class="text-lg" style="color: rgb(65, 64, 66);">Find answers from the Exporters Team</p>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container acc">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Why selling on the Exporters marketplace and not through an online shop ?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Is Exporters free of charge ?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                             We are not looking to export at this stage. Can we still use Exporters ?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                               We are already selling online. What can you do for us ?
+                              </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                                How does Exporters ensure data security? Will prices be displayed ?
+                              </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Can I register as both: Buyer and Supplier?
+                              </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-5">
+                        <div class="p-3 webkit">
+                            <img src="images/faq.dfa036bc93cbed1c0405.png" class="w-9/12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg container-fluid">
+                <div class="container">
+                    <div class="py-4 align-items-center webkit flex ddmm">
+                        <div>
+                            <h2 class="text-2xl text-white">Connect With Textile B2B Network</h2>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <button type="button" class="btnMain btn btn-primary">Sign up for free</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center text-lg-start text-muted" style="background: rgb(30, 117, 187);">
+                <section class>
+                    <div class="container text-left text-md-start pt-5 text-white">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <img src="images/white-logo.bda5b6899f55ffdf7897.png" class style="width: 70%;">
+                                <p class="text-lg py-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                <div class="py-2">
+                                    <div class="d-flex">
+                                        <div class="p-2">
+                                            <img src="images/download (5).png" alt="">
+                                        </div>
+                                        <div class="p-2">
+                                            <img src="images/insta.815a6372f7afff1b3f42.png" alt="">
+                                        </div>
+                                        <div class="p-2">
+                                            <img src="images/download (4).png" alt="">
+                                        </div>
+                                        <div class="p-2">
+                                            <img src="images/download (4).png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Exporters Directory</h6>
+                                <p>
+                                    <a class="text-reset" href="#">About Us</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Privacy Policy</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Terms of Use</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Contact Us</a>
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Find</h6>
+                                <p>
+                                    <a class="text-reset" href="#">Products</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Exporters</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Importers</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Categories</a>
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Buy</h6>
+                                <p>
+                                    <a class="text-reset" href="#">Post Buy Requirements</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">View Latest</a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Buying Requirements</a>
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Sell</h6>
+                                <p>
+                                    <a class="text-reset" href="#">Post Sell Offers </a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">View Latest </a>
+                                </p>
+                                <p>
+                                    <a class="text-reset" href="#">Sell Offers</a>
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <section class>
+                            <form action>
+                                <div class="row d-flex justify-content-end">
+                                    <div class="col-md-5 col-12">
+                                        <div class="form-outline form-white mb-4">
+                                            <input placeholder="News Letter Subscription" type="email" id="form5Example21" class="form-control p-3">
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-outline-light mb-4 p-3 bg-green-500">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    E.D. © 
+                    <a class="text-reset fw-bold"> Copyright</a>
+                </div>
+            </footer>
+            </div>
+
+
+
+
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
